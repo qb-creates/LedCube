@@ -1,0 +1,211 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.7</VERSION>
+ <DEVICE>"ATmega32"</DEVICE>
+ <WORKING_DIR>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\m32def.inc</FILE>
+  <FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Explode_Animation.asm</FILE>
+  <FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Light_Rail_Animation.asm</FILE>
+  <FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Rain_Fall_Animation.asm</FILE>
+  <FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Twister_Animation.asm</FILE>
+  <FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Wave_Animation.asm</FILE>
+  <FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Expand_Animation.asm</FILE>
+  <FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Lightning_Animation.asm</FILE>
+  <FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Cage_Animation.asm</FILE>
+  <FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Spiral_Animation.asm</FILE>
+  <FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Snake_Animation.asm</FILE>
+  <FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Piece_Together_Animation.asm</FILE>
+  <FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE>
+  <FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Clear.asm</FILE>
+  <FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\SPI_Initialization.asm</FILE>
+  <FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Delay_Function.asm</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Debug\555LedCube.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>555LedCube.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>555LedCube.map</FILE>
+  <FILE>555LedCube.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <SPI_MasterInit><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\SPI_Initialization.asm</FILE><LINE>7</LINE></SPI_MasterInit>
+  <Main><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\main.asm</FILE><LINE>59</LINE></Main>
+  <Light_Rail><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Light_Rail_Animation.asm</FILE><LINE>8</LINE></Light_Rail>
+  <Light_Rail2><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Light_Rail_Animation.asm</FILE><LINE>52</LINE></Light_Rail2>
+  <Clear><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Clear.asm</FILE><LINE>8</LINE></Clear>
+  <Twister><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Twister_Animation.asm</FILE><LINE>15</LINE></Twister>
+  <Expand_1><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Expand_Animation.asm</FILE><LINE>339</LINE></Expand_1>
+  <Expand_2><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Expand_Animation.asm</FILE><LINE>229</LINE></Expand_2>
+  <Expand_3><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Expand_Animation.asm</FILE><LINE>119</LINE></Expand_3>
+  <Expand_4><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Expand_Animation.asm</FILE><LINE>8</LINE></Expand_4>
+  <Rain_Fall><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Rain_Fall_Animation.asm</FILE><LINE>15</LINE></Rain_Fall>
+  <Wave><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Wave_Animation.asm</FILE><LINE>9</LINE></Wave>
+  <Explode><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Explode_Animation.asm</FILE><LINE>7</LINE></Explode>
+  <Snake><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Snake_Animation.asm</FILE><LINE>14</LINE></Snake>
+  <Cage><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Cage_Animation.asm</FILE><LINE>8</LINE></Cage>
+  <Spiral><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Spiral_Animation.asm</FILE><LINE>8</LINE></Spiral>
+  <Piece_Together><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Piece_Together_Animation.asm</FILE><LINE>8</LINE></Piece_Together>
+  <Lightning><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Lightning_Animation.asm</FILE><LINE>8</LINE></Lightning>
+  <bright><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>8</LINE></bright>
+  <LR2><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Light_Rail_Animation.asm</FILE><LINE>265</LINE></LR2>
+  <LR1><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Light_Rail_Animation.asm</FILE><LINE>152</LINE></LR1>
+  <Light_Rail1_loop><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Light_Rail_Animation.asm</FILE><LINE>154</LINE></Light_Rail1_loop>
+  <Light_Rail1_end><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Light_Rail_Animation.asm</FILE><LINE>260</LINE></Light_Rail1_end>
+  <Light_Rail2_loop><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Light_Rail_Animation.asm</FILE><LINE>267</LINE></Light_Rail2_loop>
+  <Light_Rail2_end><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Light_Rail_Animation.asm</FILE><LINE>377</LINE></Light_Rail2_end>
+  <Rain_Fall_loop><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Rain_Fall_Animation.asm</FILE><LINE>24</LINE></Rain_Fall_loop>
+  <Rain_Fall_function><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Rain_Fall_Animation.asm</FILE><LINE>246</LINE></Rain_Fall_function>
+  <Rain_Fall_end><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Rain_Fall_Animation.asm</FILE><LINE>236</LINE></Rain_Fall_end>
+  <Twist2_beg><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Twister_Animation.asm</FILE><LINE>17</LINE></Twist2_beg>
+  <Twist2_end><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Twister_Animation.asm</FILE><LINE>166</LINE></Twist2_end>
+  <Wave_loop><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Wave_Animation.asm</FILE><LINE>50</LINE></Wave_loop>
+  <Wave_end><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Wave_Animation.asm</FILE><LINE>136</LINE></Wave_end>
+  <Lightning_loop><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Lightning_Animation.asm</FILE><LINE>10</LINE></Lightning_loop>
+  <Lightning_end><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Lightning_Animation.asm</FILE><LINE>50</LINE></Lightning_end>
+  <Cage_loop><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Cage_Animation.asm</FILE><LINE>17</LINE></Cage_loop>
+  <Cage_end><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Cage_Animation.asm</FILE><LINE>88</LINE></Cage_end>
+  <Spiral_loop><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Spiral_Animation.asm</FILE><LINE>19</LINE></Spiral_loop>
+  <Spiral_function><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Spiral_Animation.asm</FILE><LINE>169</LINE></Spiral_function>
+  <Spiral_end><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Spiral_Animation.asm</FILE><LINE>142</LINE></Spiral_end>
+  <Snake_loop><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Snake_Animation.asm</FILE><LINE>16</LINE></Snake_loop>
+  <Snake_end><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Snake_Animation.asm</FILE><LINE>149</LINE></Snake_end>
+  <D1><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Piece_Together_Animation.asm</FILE><LINE>115</LINE></D1>
+  <D2><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Piece_Together_Animation.asm</FILE><LINE>185</LINE></D2>
+  <D3><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Piece_Together_Animation.asm</FILE><LINE>253</LINE></D3>
+  <D4><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Piece_Together_Animation.asm</FILE><LINE>317</LINE></D4>
+  <D5><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Piece_Together_Animation.asm</FILE><LINE>377</LINE></D5>
+  <Piece_Together_loop><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Piece_Together_Animation.asm</FILE><LINE>117</LINE></Piece_Together_loop>
+  <Piece_Together_end><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Piece_Together_Animation.asm</FILE><LINE>181</LINE></Piece_Together_end>
+  <Piece_Together2_loop><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Piece_Together_Animation.asm</FILE><LINE>187</LINE></Piece_Together2_loop>
+  <Piece_Together2_end><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Piece_Together_Animation.asm</FILE><LINE>247</LINE></Piece_Together2_end>
+  <Piece_Together3_loop><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Piece_Together_Animation.asm</FILE><LINE>255</LINE></Piece_Together3_loop>
+  <Piece_Together3_end><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Piece_Together_Animation.asm</FILE><LINE>311</LINE></Piece_Together3_end>
+  <Piece_Together4_loop><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Piece_Together_Animation.asm</FILE><LINE>319</LINE></Piece_Together4_loop>
+  <Piece_Together4_end><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Piece_Together_Animation.asm</FILE><LINE>371</LINE></Piece_Together4_end>
+  <Piece_Together5_loop><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Piece_Together_Animation.asm</FILE><LINE>379</LINE></Piece_Together5_loop>
+  <Piece_Together5_end><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Piece_Together_Animation.asm</FILE><LINE>426</LINE></Piece_Together5_end>
+  <bright_loop><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>10</LINE></bright_loop>
+  <five><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>544</LINE></five>
+  <four><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>412</LINE></four>
+  <three><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>280</LINE></three>
+  <two><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>148</LINE></two>
+  <one><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>16</LINE></one>
+  <one_Bit1_status_off><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>27</LINE></one_Bit1_status_off>
+  <one_Bit1_status_on><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>30</LINE></one_Bit1_status_on>
+  <Lots_O_Lights_function><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>675</LINE></Lots_O_Lights_function>
+  <one_Bit2_status_off><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>43</LINE></one_Bit2_status_off>
+  <one_Bit2_status_on><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>46</LINE></one_Bit2_status_on>
+  <one_Bit3_status_off><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>59</LINE></one_Bit3_status_off>
+  <one_Bit3_status_on><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>62</LINE></one_Bit3_status_on>
+  <one_Bit4_status_off><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>75</LINE></one_Bit4_status_off>
+  <one_Bit4_status_on><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>78</LINE></one_Bit4_status_on>
+  <one_Bit5_status_off><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>91</LINE></one_Bit5_status_off>
+  <one_Bit5_status_on><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>94</LINE></one_Bit5_status_on>
+  <one_Bit6_status_off><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>107</LINE></one_Bit6_status_off>
+  <one_Bit6_status_on><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>110</LINE></one_Bit6_status_on>
+  <one_Bit7_status_off><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>123</LINE></one_Bit7_status_off>
+  <one_Bit7_status_on><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>126</LINE></one_Bit7_status_on>
+  <one_Bit8_status_off><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>139</LINE></one_Bit8_status_off>
+  <one_Bit8_status_on><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>142</LINE></one_Bit8_status_on>
+  <two_Bit1_status_off><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>159</LINE></two_Bit1_status_off>
+  <two_Bit1_status_on><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>162</LINE></two_Bit1_status_on>
+  <Lots_O_Lights_function2><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>689</LINE></Lots_O_Lights_function2>
+  <two_Bit2_status_off><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>175</LINE></two_Bit2_status_off>
+  <two_Bit2_status_on><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>178</LINE></two_Bit2_status_on>
+  <two_Bit3_status_off><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>191</LINE></two_Bit3_status_off>
+  <two_Bit3_status_on><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>194</LINE></two_Bit3_status_on>
+  <two_Bit4_status_off><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>207</LINE></two_Bit4_status_off>
+  <two_Bit4_status_on><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>210</LINE></two_Bit4_status_on>
+  <two_Bit5_status_off><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>223</LINE></two_Bit5_status_off>
+  <two_Bit5_status_on><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>226</LINE></two_Bit5_status_on>
+  <two_Bit6_status_off><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>239</LINE></two_Bit6_status_off>
+  <two_Bit6_status_on><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>242</LINE></two_Bit6_status_on>
+  <two_Bit7_status_off><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>255</LINE></two_Bit7_status_off>
+  <two_Bit7_status_on><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>258</LINE></two_Bit7_status_on>
+  <two_Bit8_status_off><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>271</LINE></two_Bit8_status_off>
+  <two_Bit8_status_on><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>274</LINE></two_Bit8_status_on>
+  <three_Bit1_status_off><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>291</LINE></three_Bit1_status_off>
+  <three_Bit1_status_on><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>294</LINE></three_Bit1_status_on>
+  <Lots_O_Lights_function3><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>703</LINE></Lots_O_Lights_function3>
+  <three_Bit2_status_off><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>307</LINE></three_Bit2_status_off>
+  <three_Bit2_status_on><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>310</LINE></three_Bit2_status_on>
+  <three_Bit3_status_off><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>323</LINE></three_Bit3_status_off>
+  <three_Bit3_status_on><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>326</LINE></three_Bit3_status_on>
+  <three_Bit4_status_off><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>339</LINE></three_Bit4_status_off>
+  <three_Bit4_status_on><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>342</LINE></three_Bit4_status_on>
+  <three_Bit5_status_off><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>355</LINE></three_Bit5_status_off>
+  <three_Bit5_status_on><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>358</LINE></three_Bit5_status_on>
+  <three_Bit6_status_off><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>371</LINE></three_Bit6_status_off>
+  <three_Bit6_status_on><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>374</LINE></three_Bit6_status_on>
+  <three_Bit7_status_off><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>387</LINE></three_Bit7_status_off>
+  <three_Bit7_status_on><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>390</LINE></three_Bit7_status_on>
+  <three_Bit8_status_off><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>403</LINE></three_Bit8_status_off>
+  <three_Bit8_status_on><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>406</LINE></three_Bit8_status_on>
+  <four_Bit1_status_off><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>423</LINE></four_Bit1_status_off>
+  <four_Bit1_status_on><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>426</LINE></four_Bit1_status_on>
+  <Lots_O_Lights_function4><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>717</LINE></Lots_O_Lights_function4>
+  <four_Bit2_status_off><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>439</LINE></four_Bit2_status_off>
+  <four_Bit2_status_on><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>442</LINE></four_Bit2_status_on>
+  <four_Bit3_status_off><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>455</LINE></four_Bit3_status_off>
+  <four_Bit3_status_on><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>458</LINE></four_Bit3_status_on>
+  <four_Bit4_status_off><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>471</LINE></four_Bit4_status_off>
+  <four_Bit4_status_on><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>474</LINE></four_Bit4_status_on>
+  <four_Bit5_status_off><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>487</LINE></four_Bit5_status_off>
+  <four_Bit5_status_on><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>490</LINE></four_Bit5_status_on>
+  <four_Bit6_status_off><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>503</LINE></four_Bit6_status_off>
+  <four_Bit6_status_on><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>506</LINE></four_Bit6_status_on>
+  <four_Bit7_status_off><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>519</LINE></four_Bit7_status_off>
+  <four_Bit7_status_on><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>522</LINE></four_Bit7_status_on>
+  <four_Bit8_status_off><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>535</LINE></four_Bit8_status_off>
+  <four_Bit8_status_on><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>538</LINE></four_Bit8_status_on>
+  <five_Bit1_status_off><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>555</LINE></five_Bit1_status_off>
+  <five_Bit1_status_on><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>558</LINE></five_Bit1_status_on>
+  <Lots_O_Lights_function5><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>731</LINE></Lots_O_Lights_function5>
+  <five_Bit2_status_off><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>571</LINE></five_Bit2_status_off>
+  <five_Bit2_status_on><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>574</LINE></five_Bit2_status_on>
+  <five_Bit3_status_off><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>587</LINE></five_Bit3_status_off>
+  <five_Bit3_status_on><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>590</LINE></five_Bit3_status_on>
+  <five_Bit4_status_off><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>603</LINE></five_Bit4_status_off>
+  <five_Bit4_status_on><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>606</LINE></five_Bit4_status_on>
+  <five_Bit5_status_off><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>619</LINE></five_Bit5_status_off>
+  <five_Bit5_status_on><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>622</LINE></five_Bit5_status_on>
+  <five_Bit6_status_off><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>635</LINE></five_Bit6_status_off>
+  <five_Bit6_status_on><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>638</LINE></five_Bit6_status_on>
+  <five_Bit7_status_off><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>651</LINE></five_Bit7_status_off>
+  <five_Bit7_status_on><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>654</LINE></five_Bit7_status_on>
+  <five_Bit8_status_off><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>667</LINE></five_Bit8_status_off>
+  <five_Bit8_status_on><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>670</LINE></five_Bit8_status_on>
+  <Layers_status><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\SPI_Initialization.asm</FILE><LINE>52</LINE></Layers_status>
+  <O_start><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>684</LINE></O_start>
+  <SPI_MasterTransmit><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\SPI_Initialization.asm</FILE><LINE>18</LINE></SPI_MasterTransmit>
+  <Latch><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\SPI_Initialization.asm</FILE><LINE>45</LINE></Latch>
+  <O_start2><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>698</LINE></O_start2>
+  <O_start3><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>712</LINE></O_start3>
+  <O_start4><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>726</LINE></O_start4>
+  <O_start5><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Brightness.asm</FILE><LINE>740</LINE></O_start5>
+  <Milli_100_delay><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Delay_Function.asm</FILE><LINE>26</LINE></Milli_100_delay>
+  <Wait_Transmit><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\SPI_Initialization.asm</FILE><LINE>21</LINE></Wait_Transmit>
+  <Wait_Transmit1><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\SPI_Initialization.asm</FILE><LINE>27</LINE></Wait_Transmit1>
+  <Wait_Transmit2><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\SPI_Initialization.asm</FILE><LINE>33</LINE></Wait_Transmit2>
+  <Wait_Transmit3><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\SPI_Initialization.asm</FILE><LINE>39</LINE></Wait_Transmit3>
+  <Sec_delay><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Delay_Function.asm</FILE><LINE>14</LINE></Sec_delay>
+  <delay0><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Delay_Function.asm</FILE><LINE>16</LINE></delay0>
+  <delay1><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Delay_Function.asm</FILE><LINE>17</LINE></delay1>
+  <delay2><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Delay_Function.asm</FILE><LINE>18</LINE></delay2>
+  <delay5><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Delay_Function.asm</FILE><LINE>28</LINE></delay5>
+  <delay6><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Delay_Function.asm</FILE><LINE>29</LINE></delay6>
+  <delay7><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Delay_Function.asm</FILE><LINE>30</LINE></delay7>
+  <Milli_delay><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Delay_Function.asm</FILE><LINE>38</LINE></Milli_delay>
+  <delay3><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Delay_Function.asm</FILE><LINE>40</LINE></delay3>
+  <delay4><FILE>F:\Bitbucket\Atmel Studio\555-led-cube\555LedCube\555LedCube\Delay_Function.asm</FILE><LINE>41</LINE></delay4>
+ </LABELS>
+</ASSEMBLER_INFO>
