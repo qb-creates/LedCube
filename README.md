@@ -25,8 +25,8 @@ Links
 [Video Demonstration](https://drive.google.com/file/d/1pYbSRflhyF3lk5q5aIdi2LMgpq7U97TK/view?usp=sharing "5x5x5 Led Cube")
 
 Circuit Board Images  
-![Alt text](images/PCB_Layout.png){height=205 width=274}
-![Alt text](images/DSC03021.jpg){height=205 width=274}
+![Alt text](images/PCB_Layout.png){height=205px width=274px}
+![Alt text](images/DSC03021.jpg){height=205px width=274px}
 ![Alt text](images/DSC03022.jpg){height=205 width=274}
 ![Alt text](images/DSC03023.jpg){height=205 width=274}
 ![Alt text](images/DSC03024.jpg){height=205 width=274}
