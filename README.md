@@ -70,22 +70,22 @@ Because the LED Drivers are daisy chained together, the data must be transmitted
 ### Parts List <a name="clockpartslist"></a>
 |_**Part Number**_|_**Quantity**_|
 |:-----|:--------:|
-|<a href="https://www.digikey.com/en/products/detail/microchip-technology/ATMEGA32-16PU/739771">ATmega32-16PU</a>| x1 |
-|<a href="https://www.digikey.com/en/products/filter/rectangular-connectors/headers-male-pins/314">10 pin Header connector</a>| x1 |
-|<a href="https://www.sparkfun.com/products/19018">32 pin header connector</a>| x1 |
-|<a href="https://www.sparkfun.com/products/19018">Header Pins</a>| x5 |
-|<a href="https://www.digikey.com/en/products/detail/stmicroelectronics/STP16CPC05MTR/2021162">(Cat4016 discontinued) STP16CPC05MTR LED Driver</a>| x2 |
-|<a href="https://www.digikey.com/en/products/filter/led-indication-discrete/105">10mm Blue Led</a>| x125 |
-|<a href="https://www.digikey.com/en/products/filter/oscillators/172">16Mhz Crystal</a>| x1 |
-|<a href="https://www.digikey.com/en/products/filter/ceramic-capacitors/60">22pF Capacitor 0603 (1608 Metric)</a>| x2 |
-|<a href="https://www.digikey.com/en/products/filter/ceramic-capacitors/60">100pF Capacitor 0603 (1608 Metric)</a>| x3 |
-|<a href="https://www.digikey.com/en/products/filter/through-hole-resistors/53">10K Resistor 0603 (1608 Metric)</a>| x1 |
-|<a href="https://www.digikey.com/en/products/filter/through-hole-resistors/53">2.2K Resistor 0603 (1608 Metric)</a>| x2 |
-|<a href="https://www.digikey.com/en/products/filter/through-hole-resistors/53">1K Resistor 0603 (1608 Metric)</a>| x5 |
-|<a href="https://www.digikey.com/en/products/filter/diodes/rectifiers/single-diodes/280">1n4148 Diode</a>| x1 |
-|<a href="https://www.sparkfun.com/products/19018">BC635 Transistor</a>| x5 |
+|ATmega32-16PU| x1 |
+|10 pin Header connector| x1 |
+|32 pin header connector| x1 |
+|Header Pins| x5 |
+|(Cat4016 discontinued) STP16CPC05MTR LED Driver| x2 |
+|10mm Blue Led| x125 |
+|16Mhz Crystal| x1 |
+|22pF Capacitor 0603 (1608 Metric)| x2 |
+|100pF Capacitor 0603 (1608 Metric)| x3 |
+|10K Resistor 0603 (1608 Metric)| x1 |
+|2.2K Resistor 0603 (1608 Metric)| x2 |
+|1K Resistor 0603 (1608 Metric)| x5 |
+|1n4148 Diode| x1 |
+|BC635 Transistor| x5 |
 
-## 3. Power Consumption <a name="powerconsumption"></a>
+## 3. Power Consumption <a name="powerconsumption">
 |_**Test Condition**_|_**Power Consumption**_|
 |:--|:--:|
 |Cube circuit with all LEDs powered on. LEDs are supplied with 27mA each.|700mA|
