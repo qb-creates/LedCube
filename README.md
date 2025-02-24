@@ -102,5 +102,5 @@ The ESC's UBEC must be able to supply at least 380mA to supply enough power to a
 ## 4. Schematics <a name="schematics"></a>
 ### Cube Schematic<a name="cubeschematic"></a>
 <div>
-    <img src = "images/led-circuit-schematic.jpg">
+    <img src = "images/led-cube-schematic.png">
 </div>
