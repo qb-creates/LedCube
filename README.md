@@ -26,12 +26,8 @@ LED Cube Display that projects custom animations using a 5x5x5 matrix of LEDs. T
 - AutoDesk Fusion 360 Personal (Case Design): https://www.autodesk.com/products/fusion-360/personal
 
 ## 2. Display Circuit <a name="cubecircuit"></a>
- This circuit projects the image of an anolog clock using of Persistence of Vision.
- The circuit is mounted to a brushless motor and will project the image of the clock everytime the
- motor completes a full rotation. An IR Detector connected to External Interrupt 0 is used to notify 
- the circuit that a full rotation of the motor has occured and that it is back at it's starting position. 
- A 2 second CTC timer is used to add one second to the clock on each CTC compare interrupt. This interrupt is 
- triggered every 1 second. Two 16 channel LED drivers are used to drive the LEDs. Communication with the LED drivers is done using the SPI protocol.
+This circuit projects custom animations by utilizing multiplexing and bit-angle modulation for LED dimming. Each layer of the cube consists of 25 LEDs, with their anodes soldered together and their cathodes connected to the CAT4016 constant current sink outputs. The LEDs are arranged into 25 vertical columns, each containing five LEDs stacked across the layers. The cathodes of LEDs within each column are connected together, allowing control of entire columns simultaneously. Five transistors act as switches to control each layer, allowing 5V to be applied to the corresponding anode mesh when the associated transistor is activated. Through multiplexing, all five layers can appear illuminated simultaneously. Communication with the LED drivers is achieved via the SPI protocol.
+
 <div align="center">
   <img src = "images/DSC03021.jpg" width = "357" height = "275" style="padding: 0; margin: 0;">
   <img src = "images/DSC03024.jpg" width = "357" height = "275" style="padding: 0; margin: 0;">
