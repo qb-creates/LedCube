@@ -12,17 +12,12 @@ LED Cube Display that projects custom animations using a 5x5x5 matrix of LEDs. T
 <h2> Table of Contents</h2>
 
 1. [Software Used](#software)
-2. [Clock Circuit](#clockcircuit)
+2. [Cube Circuit](#cubecircuit)
     - [LED Driver](#leddriver)
-    - [Timer Overview](#clocktimer) 
     - [Parts List](#clockpartslist) 
-4. [Power Consumption](#powerconsumption)
-5. [Schematics](#schematics)
-    - [ESC Driver Schematic](#escschematic)
-    - [Clock Schematic](#clockschematic)
-6. [STL Viewer](#stlviewer)
-    - [Case Base](#casebase)
-    - [Case Top](#casetop)
+3. [Power Consumption](#powerconsumption)
+4. [Schematics](#schematics)
+    - [Clock Schematic](#cubeschematic)
 
 ## 1. Software Used<a name="software"></a>
 - Microchip Studio: https://www.microchip.com/en-us/tools-resources/develop/microchip-studio
@@ -30,7 +25,7 @@ LED Cube Display that projects custom animations using a 5x5x5 matrix of LEDs. T
 - KiCad (PCB Design): https://www.kicad.org
 - AutoDesk Fusion 360 Personal (Case Design): https://www.autodesk.com/products/fusion-360/personal
 
-## 2. Display Circuit <a name="clockcircuit"></a>
+## 2. Display Circuit <a name="cubecircuit"></a>
  This circuit projects the image of an anolog clock using of Persistence of Vision.
  The circuit is mounted to a brushless motor and will project the image of the clock everytime the
  motor completes a full rotation. An IR Detector connected to External Interrupt 0 is used to notify 
@@ -75,27 +70,7 @@ Because the LED Drivers are daisy chained together, the data must be transmitted
 * Byte1 (MSB transmitted first) 
 * Byte0 (LSB transmitted first) 
 ---
-### Timer Overview <a name="clocktimer"></a>
-A one second timer is configured to update the seconds hand of the clock. The timer is configured to operate in Clear Timer on Compare Match Mode (CTC). A CTC frequency of 0.5 Hz (2s) is required. 
-This will trigger the compare match interrupt every second. Because the weight of the crystal caused the ciruit to be unbalanced, it was discarded and the ATmega32's internal 8 Mhz 
-oscillator is used instead. Calculation to find the appropriate OCRn values is shown below.
 
-CTC Waveform Frequency Equation
-- Frequency = fck / (2 * prescaler * (1 + OCRnA)).
-
-Variables
-- Frequency = 0.5Hz = 2 seconds
-- fck = 8 Mhz
-- prescaler = 256
-- OCRnA = ?
-
-Rearranged formula to solve for OCRnA:
-- OCRnA = (fck / (2 * prescaler * Frequency)) - 1
-
-Solve for OCRnA
-- OCRnA = (8 Mhz / (2 * 256 * 0.5Hz)) - 1 
-- OCRnA = 31249
----
 ### Parts List <a name="clockpartslist"></a>
 |_**Part Number**_|_**Quantity**_|
 |:-----|:--------:|
@@ -114,30 +89,18 @@ Solve for OCRnA
 |<a href="https://www.digikey.com/en/products/filter/diodes/rectifiers/single-diodes/280">1n4148 Diode</a>| x1 |
 |<a href="https://www.sparkfun.com/products/19018">BC635 Transistor</a>| x5 |
 
-What I learned
-* Learned the concept of Binary Code Modulation to adjust LED brightness.
-* Learned the concept of LED Multiplexing.
-* Increased code organization skills.
-* Increased my knowledge on reusable functions.
+## 3. Power Consumption <a name="powerconsumption"></a>
+|_**Test Condition**_|_**Power Consumption**_|
+|:--|:--:|
+|Clock circuit with all LEDs powered on. LEDs are supplied with 3mA each.|120mA|
+|Motor running with the weight of the clock circuit|150mA|
+|Inductive charging set|100mA|
+|Motor running with all LEDs powered on|380mA|
 
-Component List
-* Atmega 32 Microcontroller
-* Cat4016 LED Driver x2
-* Blue LED x 125
-* BC635 Transistor x5
-* 16 Mghz Crystal x1
-* 10k resistor
-* 1k resistor x5
-* 2.2k resistor x2
-* 22pF capacitor x2
-* 100pF capacitor x3
-* 1N914 Diode
-* Header Pins x43
+The ESC's UBEC must be able to supply at least 380mA to supply enough power to all of the components.
 
-
-Circuit Board Images  
-<img src = "images/PCB_Layout.png" width = "274" height = "205">
-<img src = "images/DSC03021.jpg" width = "274" height = "205">
-<img src = "images/DSC03022.jpg" width = "274" height = "205">
-<img src = "images/DSC03023.jpg" width = "274" height = "205">
-<img src = "images/DSC03024.jpg" width = "274" height = "205">
+## 4. Schematics <a name="schematics"></a>
+### Cube Schematic<a name="cubeschematic"></a>
+<div>
+    <img src = "images/led-circuit-schematic.jpg">
+</div>
