@@ -14,10 +14,10 @@ LED Cube Display that projects custom animations using a 5x5x5 matrix of LEDs. T
 1. [Software Used](#software)
 2. [Cube Circuit](#cubecircuit)
     - [LED Driver](#leddriver)
-    - [Parts List](#clockpartslist) 
+    - [Parts List](#cubepartslist) 
 3. [Power Consumption](#powerconsumption)
 4. [Schematics](#schematics)
-    - [Clock Schematic](#cubeschematic)
+    - [Cube Schematic](#cubeschematic)
 
 ## 1. Software Used<a name="software"></a>
 - Microchip Studio: https://www.microchip.com/en-us/tools-resources/develop/microchip-studio
@@ -67,7 +67,7 @@ Because the LED Drivers are daisy chained together, the data must be transmitted
 * Byte0 (LSB transmitted first) 
 ---
 
-### Parts List <a name="clockpartslist"></a>
+### Parts List <a name="cubepartslist"></a>
 |_**Part Number**_|_**Quantity**_|
 |:-----|:--------:|
 |ATmega32-16PU| x1 |
