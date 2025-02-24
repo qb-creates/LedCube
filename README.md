@@ -1,6 +1,38 @@
 # LED-Cube
-5x5x5 LED Cube Matrix that displays animations. The cube was designed, assembled, and programmed by me. Assembly Language was used to program the cube.
 
+LED Cube Display that projects custom animations using a 5x5x5 matrix of LEDs. The display utilizes an ATmega32 microcontroller utilizes two 16-channel LED drivers.
+
+- Project Video (YouTube): https://www.youtube.com/watch?v=go_lMkQ88TE
+- Display Multiplexing: https://en.wikipedia.org/wiki/Multiplexed_display
+
+<div align="center">
+  <img src="images/PCB_Layout.png" width = "400" height = "384">
+</div>
+
+<h2> Table of Contents</h2>
+
+1. [Software Used](#software)
+2. [ESC Driver Circuit](#escdriver)
+    - [PWM Overview](#escpwm)
+    - [Parts List](#escpartslist) 
+3. [Clock Circuit](#clockcircuit)
+    - [LED Driver](#leddriver)
+    - [Timer Overview](#clocktimer) 
+    - [Parts List](#clockpartslist) 
+4. [Power Consumption](#powerconsumption)
+5. [Schematics](#schematics)
+    - [ESC Driver Schematic](#escschematic)
+    - [Clock Schematic](#clockschematic)
+6. [STL Viewer](#stlviewer)
+    - [Case Base](#casebase)
+    - [Case Top](#casetop)
+
+## 1. Software Used<a name="software"></a>
+- Microchip Studio: https://www.microchip.com/en-us/tools-resources/develop/microchip-studio
+- AVRDUDE (Flash Uploader): https://github.com/avrdudes/avrdude
+- KiCad (PCB Design): https://www.kicad.org
+- AutoDesk Fusion 360 Personal (Case Design): https://www.autodesk.com/products/fusion-360/personal
+  
 What I learned
 * Learned the concept of Binary Code Modulation to adjust LED brightness.
 * Learned the concept of LED Multiplexing.
@@ -21,8 +53,6 @@ Component List
 * 1N914 Diode
 * Header Pins x43
 
-Links  
-[Video Demonstration](https://drive.google.com/file/d/1pYbSRflhyF3lk5q5aIdi2LMgpq7U97TK/view?usp=sharing "5x5x5 Led Cube")
 
 Circuit Board Images  
 <img src = "images/PCB_Layout.png" width = "274" height = "205">
