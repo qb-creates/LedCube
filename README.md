@@ -92,12 +92,9 @@ Because the LED Drivers are daisy chained together, the data must be transmitted
 ## 3. Power Consumption <a name="powerconsumption"></a>
 |_**Test Condition**_|_**Power Consumption**_|
 |:--|:--:|
-|Clock circuit with all LEDs powered on. LEDs are supplied with 3mA each.|120mA|
-|Motor running with the weight of the clock circuit|150mA|
-|Inductive charging set|100mA|
-|Motor running with all LEDs powered on|380mA|
+|Cube circuit with all LEDs powered on. LEDs are supplied with 27mA each.|700mA|
 
-The ESC's UBEC must be able to supply at least 380mA to supply enough power to all of the components.
+Since each layer of the cube is multiplexed, only 25 LEDs will be illuminated at any given time. As a result, the maximum power consumption for the LEDs is calculated as 27mA multiplied by 25, totaling 681mA. Additionally, the microcontroller itself consumes approximately 20mA. Therefore, the power supply must be capable of providing at least 700mA to ensure stable operation of all components. To allow for adequate headroom, a 1000mA (1A) power supply is recommended.
 
 ## 4. Schematics <a name="schematics"></a>
 ### Cube Schematic<a name="cubeschematic"></a>
