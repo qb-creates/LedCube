@@ -6,7 +6,7 @@ LED Cube Display that projects custom animations using a 5x5x5 matrix of LEDs. T
 - Display Multiplexing: https://en.wikipedia.org/wiki/Multiplexed_display
 
 <div align="center">
-  <img src="images/PCB_Layout.png" width = "400" height = "384">
+  <img src="images/led-cube.PNG" width = "550" height = "517">
 </div>
 
 <h2> Table of Contents</h2>
@@ -45,7 +45,7 @@ LED Cube Display that projects custom animations using a 5x5x5 matrix of LEDs. T
 </div>
 
 ### LED Drivers <a name="leddriver"></a>
-The LED Drivers are chained together. Each driver must receive two bytes of data to control their 16 output channels. Four bytes of data must be sent to the first driver in order to control all 32 output channels. The LEDs are mounted in order (starting from the center of the PCB) from 1 to 32. The table below shows which output channel each LED is connected to. 
+The LED Drivers are chained together. Each driver must receive two bytes of data to control their 16 output channels. Four bytes of data must be sent to the first driver in order to control all 32 output channels. The LEDs are mounted in order (starting from the top left corner of the 32 pin header connector) from 1 to 25. The table below shows which output channel each LED is connected to. 
 
 |_**Cat4016 1 Outputs**_|LED Number|--|_**Cat4016 2 Outputs**_|LED Number|
 |:--:|:--:|:--:|:--:|:--:|
