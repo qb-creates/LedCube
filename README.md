@@ -6,7 +6,7 @@ LED Cube Display that projects custom animations using a 5x5x5 matrix of LEDs. T
 - Display Multiplexing: https://en.wikipedia.org/wiki/Multiplexed_display
 
 <div align="center">
-  <img src="images/led-cube.PNG" width = "550" height = "517">
+  <img src="images/led-cube.PNG" width = "550">
 </div>
 
 <h2> Table of Contents</h2>
